@@ -9,12 +9,12 @@
   font-family: 'Montserrat', sans-serif;;
   font-size: 60px;
   padding-top: 140px;
-  padding-right: 60px;
+  padding-right: 130px;
 }
 
 .landing_subtitle {
 font-family: 'Coming Soon', cursive;
-padding-right: 80px;
+padding-right: 160px;
 }
 
 .landing_button {
@@ -28,8 +28,9 @@ padding-right: 80px;
   text-decoration: none;
   letter-spacing: 6px;
   cursor: pointer;
+  margin-top: 50px;
   margin-bottom: 100px;
-  margin-right: 40px;
+  margin-right: 110px;
 }
 
 .landing_bg {

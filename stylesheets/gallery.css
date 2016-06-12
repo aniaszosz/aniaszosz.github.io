@@ -1,0 +1,87 @@
+.gallery {
+  background-color: #ecf0f1;
+}
+
+.gallery_title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: black;
+  font-family: "Indie Flower",cursive;
+  font-size: 50px;
+  cursor: default;
+}
+
+.gallery_content {
+  margin: 0 auto;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.gallery_column {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+.box-container {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.box {
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ filter: grayscale(100%);
+ -webkit-filter: grayscale(100%);
+ -moz-filter: grayscale(100%);
+
+}
+
+.box:hover {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  filter: grayscale(0);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.box--1 {
+  background-image: url(http://colorlisa.com/pictures/93_1.jpg);
+  height: 300px;
+}
+.box--2 {
+  background-image: url(http://colorlisa.com/pictures/78_1.jpg);
+  height: 400px;
+}
+.box--3 {
+  background-image: url(http://colorlisa.com/pictures/111_1.jpg);
+  height: 300px;
+}
+.box--5 {
+  background-image: url(http://colorlisa.com/pictures/88_1.jpg);
+  height: 400px;
+}
+.box--6 {
+  background-image: url(http://colorlisa.com/pictures/108_1.jpg);
+  height: 300px;
+}
+.box--7 {
+  background-image: url(http://colorlisa.com/pictures/55_1.jpg);
+  height: 300px;
+}
+.box--4 {
+  background-image: url(http://colorlisa.com/pictures/hollown_1.jpg);
+  height: 400px;
+}
+.box--8 {
+  background-image: url(http://colorlisa.com/pictures/118_1.jpg);
+  height: 300px;
+}
+.box--9 {
+  background-image: url(http://colorlisa.com/pictures/117_1.jpg);
+  height: 400px;
+}

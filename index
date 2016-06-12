@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+  <head>
+    <title> My Portfolio </title>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Coming+Soon|Montserrat|Candal' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Coming+Soon' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Coming+Soon|Montserrat|Candal' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Coming+Soon|Montserrat|Candal|Poiret+One' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/normalize.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <link href="stylesheets/navigation.css" rel="stylesheet">
+    <link href="stylesheets/landing.css" rel="stylesheet">
+    <link href="stylesheets/about.css" rel="stylesheet">
+    <link href="stylesheets/footer.css" rel="stylesheet">
+    <link href="stylesheets/contact_form.css" rel="stylesheet">
+    <link href="stylesheets/gallery.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar_main">
+        <img src="images/diamond.svg" class="topbar_image">
+        <span class="topbar_title">Portfolio</span>
+      </div>
+      <div class="topbar_nav">
+        <ul class="nav">
+          <li>
+            <a class="topbar_nav__link" href="#about"> about </a>
+          </li>
+          <li>
+            <a class="topbar_nav__link" href="#gallery"> gallery </a>
+          </li>
+          <li>
+            <a class="topbar_nav__link" href="#contact"> contact </a>
+          </li>
+        </ul>
+      </div>
+  </header>
+  <section class="landing">
+    <div class="landing_bg"> </div>
+    <h1 class="landing_title"> I'm Ania </h1>
+    <h2 class="landing_subtitle"> Project Manager </h2>
+    <a href="#" class="landing_button"> wanna know more? </a>
+  </section>
+  <section class="about" id="about">
+    <div class="about_content">
+      <h2 class="about_title">About</h2>
+      <div class="about_avatar-frame">
+        <img src="images/bacon.jpeg" alt="Avatar" class="about_avatar">
+      </div>
+      <p class="about_description">
+        Picanha sausage ham hock biltong porchetta.
+        Tenderloin t-bone venison pork belly,
+        fatback tongue jowl pork loin turducken kielbasa.
+        T-bone turducken ham chicken. Jerky cupim boudin picanha bresaola
+        ham chuck tongue pancetta pastrami landjaeger ribeye kielbasa. </p>
+
+    <div class="skills">
+    <h2 class="about_title">Skills</h2>
+
+    <section class="skills_column">
+    <img src="images/computer-pc.svg" class="software_image">
+      <ul class="skill-list">
+          <li class="skill-list-item">
+            <span class="skill_name"> Scrum </span>
+                  <div class="skill_bar_soft">
+                    <div class="skill_progress_scrum"></div>
+                  </div>
+          </li>
+          <li class="skill-list-item">
+            <span class="skill_name"> Jira </span>
+                  <div class="skill_bar_soft">
+                    <div class="skill_progress_jira"></div>
+                  </div>
+          </li>
+      </ul>
+    </section>
+    <section class="skills_column">
+    <img src="images/bubble-heart.svg" class="lang_image">
+      <ul class="skill-list">
+          <li class="skill-list-item">
+              <span class="skill_name"> English </span>
+              <div class="skill_bar_lang">
+                <div class="skill_progress_eng"></div>
+              </div>
+          </li>
+
+              <li class="skill-list-item">
+                <span class="skill_name"> French </span>
+                <div class="skill_bar_lang">
+                  <div class="skill_progress_fr"></div>
+                </div>
+              </li>
+              <li class="skill-list-item">
+                <span class="skill_name"> Spanish </span>
+                <div class="skill_bar_lang">
+                  <div class="skill_progress_spa"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </section>
+  </section>
+  <section class="gallery" id="gallery">
+      <div class="gallery_content">
+        <h2 class="gallery_title">Gallery</h2>
+
+        <div class="gallery_column">
+          <div class="box-container">
+            <div class="box box--1"></div>
+          </div>
+          <div class="box-container">
+            <div class="box box--2"></div>
+          </div>
+          <div class="box-container">
+            <div class="box box--3"></div>
+          </div>
+        </div>
+
+        <div class="gallery_column">
+          <div class="box-container">
+            <div class="box box--4"></div>
+          </div>
+          <div class="box-container">
+            <div class="box box--5"></div>
+          </div>
+          <div class="box-container">
+            <div class="box box--6"></div>
+          </div>
+        </div>
+        <div class="gallery_column">
+          <div class="box-container">
+            <div class="box box--7"></div>
+          </div>
+          <div class="box-container">
+            <div class="box box--8"></div>
+          </div>
+          <div class="box-container">
+            <div class="box box--9"></div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="contact_form" id="contact">
+    <div class="form_content">
+      <h2 class="contact_title"> Contact</h2>
+      <div class="contact_container">
+        <div class="contact_column">
+          <h3 class="contact_subtitle"> Leave me a message! </h3>
+
+       <form class="contaxt-boxes">
+            <input class="contact_input" type="text" name="name"placeholder="Name" />
+            <input class="contact_input" type="email" name="email" placeholder="your email" />
+            <input class="contact_textarea" type="text" name="message" placeholder="How you doin'?" />
+            <input class="contact_button" type="submit value" placeholder="Send" />
+
+        </form>
+        </div>
+        <div class="social_media">
+            <h3 class="contact_subtitle"> Find me! </h3>
+          <a href="https://www.facebook.com/ania.szoszkiewicz" class="contact_social-link" target="_blank">
+            <i class="fa fa-facebook fa-3x contact_icon"></i>
+          </a>
+          <a href="#linkedin" class="contact_social-link" target="_blank">
+            <i class="fa fa-linkedin-square fa-3x contact_icon"></i>
+          </a>
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/37/b7/60/37b760814d1d08c775bd4e74cb790191.jpg" class="final_image"/>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section class="footer">
+    <p class="footer_text">
+      © Ania Szoszkiewicz, 2016
+    </p>
+  </section>
+
+  </body>
+</html>

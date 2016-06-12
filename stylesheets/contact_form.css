@@ -1,0 +1,124 @@
+.contact_form {
+  background-color: #3498db;
+}
+
+.contact_title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: black;
+  font-family: "Indie Flower",cursive;
+  font-size: 50px;
+  cursor: default;
+}
+
+.contact_subtitle {
+    font-size: 30px;
+    font-family: "Poiret One";
+    color: #2c3e50;
+    text-align: center;
+}
+
+.contact-boxes {
+  width: 275px;
+  margin: 0 auto;
+}
+
+.form_content {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.contact_container {
+  width: 100%;
+  display: inline-block;
+}
+
+.contact_column {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 40%;
+}
+.contact_input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 16px;
+  width: 240px;
+  color: #2c3e50;
+  background: transparent;
+  border: 2px solid #c1e5f1;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact_textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 16px;
+  width: 240px;
+  height: 250px;
+  color: #2c3e50;
+  background: transparent;
+  border: 2px solid #c1e5f1;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact_button {
+  margin: 10px auto;
+  padding: 12px 16px;
+  width: 240px;
+  color: #fff;
+  background: #34495e;
+  border: 2px solid #c1e5f1;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.contact_button:hover {
+  color: #34495e;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.social_media {
+display: inline-block;
+text-align: center;
+width: 48%;
+overflow: hidden;
+}
+
+.contact_social-link {
+  color: #34495e;
+  padding: 30px 30px;
+}
+
+.contact_social-link:hover {
+  color: #7f8c8d;
+  transition-property: all;
+  transition-duration: .5s;
+}
+
+.final_image {
+  display: block;
+  height: 250px;
+  width: 250 px;
+  padding: 50px 30px;
+  margin: 0 auto;
+  shape-outside: polygon();
+}

@@ -1,0 +1,73 @@
+.topbar_image{
+
+}
+
+.topbar_main,
+.topbar_nav {
+  display: inline-block;
+}
+
+.topbar_title {
+
+}
+
+.topbar {
+  position: absolute;;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  font-size: 25px;
+  z-index: 10;
+}
+
+.topbar_nav__link {
+  color: green;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+
+
+.topbar_nav__link:visited {
+  color: #7f8c8d;
+}
+
+.topbar_nav__link:hover {
+  color: #e67e22;
+}
+
+.topbar_image {
+width: 25px;
+height: 25px;
+position: relative;
+top: 3px;
+}
+
+.topbar_nav {
+  float: right;
+
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+}
+.nav li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav li:not(:last-child):after {
+  content: "·";
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.nav:hover{
+  color: #8e44ad;
+}

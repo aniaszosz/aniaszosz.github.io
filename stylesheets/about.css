@@ -1,0 +1,232 @@
+.about {
+  background-color: #16a085;
+  text-align: center;
+  padding-left: 0;
+}
+
+.about_content {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+
+}
+
+.about_title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: black;
+  font-family: "Indie Flower", cursive;
+  font-size: 50px;
+  cursor: default;
+  margin-top: 0;
+}
+
+.about_description {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.about_avatar-frame {
+  float: left;
+  margin-right: 24px;
+  background-color: transparent;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
+.about_avatar {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+}
+
+.skills_column {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  width: 45%;
+  text-align: center;
+}
+
+.software_image {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.software_image:hover {
+  color: white;
+  transition-property: all;
+  transition-delay: 0.5s;
+  transition-duration: 0.75s;
+}
+
+.lang_image {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.skill-list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.skill_name {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 25px;
+  text-align:
+  color: #grey;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.skill_bar_soft {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  background-color: #f1c40f;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.skill_progress_scrum {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 90%;
+  background-color: #e67e22;
+}
+
+.skill_progress_scrum::after {
+  content: "80%";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 80%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.skill_progress_jira {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+  background-color: #e67e22;
+}
+
+.skill_progress_jira::after {
+  content: "60%";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 60%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.skill_bar_lang {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  background-color: #e74c3c;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.skill_progress_eng {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 90%;
+  background-color: #c0392b;
+}
+
+.skill_progress_eng::after {
+  content: "C1";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 90%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.skill_progress_fr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 90%;
+  background-color: #c0392b;
+}
+
+.skill_progress_fr::after {
+  content: "C1";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 90%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+.skill_progress_spa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+  background-color: #c0392b;
+}
+
+.skill_progress_spa::after {
+  content: "A2";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 30%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
